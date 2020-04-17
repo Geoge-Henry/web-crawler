@@ -10,7 +10,12 @@ import scrapy
 
 class HouseCrawlerItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    title = scrapy.Field()
+    house_name = scrapy.Field()
+    # house_year = scrapy.Field()
+    # house_type = scrapy.Field()
+    # room_counts = scrapy.Field()
+    # area = scrapy.Field()
+    # location = scrapy.Field()
     link = scrapy.Field()
     price = scrapy.Field()
+    total_price = scrapy.Field()
